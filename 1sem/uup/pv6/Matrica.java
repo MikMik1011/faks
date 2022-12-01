@@ -35,7 +35,7 @@ public class Matrica {
     public static void main(String[] args) {
         int dim = readDim();
 
-        int matrix[][] = new int[dim][dim];
+        int[][] matrix = new int[dim][dim];
 
         fillMat(matrix);
 

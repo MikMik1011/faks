@@ -20,13 +20,13 @@ public class Kazino {
         String[] igre = { "poker", "ajnc", "rulet" };
         int[] stanja = { 0, 0, 0 };
         for (Kladionicar k : kladionicari) {
-            if (k.getStanje() > 0)
+            if (k.getStanje() >= 0)
                 continue;
 
             stanja[Arrays.asList(igre).indexOf(k.getImeIgre())]++;
         }
         String najprofitabilnija = igre[findIndexOfMaximum(stanja)];
-        return String.format("Najprofitabilnija igra je trenutno je %s.", najprofitabilnija);
+        return String.format("Najprofitabilnija igra trenutno je %s.", najprofitabilnija);
     }
 
     @Override

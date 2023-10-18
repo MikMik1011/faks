@@ -29,10 +29,7 @@ public class Kladionicar {
 
     public void setImeIgre(String imeIgre) {
         String[] igre = { "poker", "ajnc", "rulet" };
-        if (Arrays.asList(igre).contains(imeIgre))
-            this.imeIgre = imeIgre;
-        else
-            this.imeIgre = "poker";
+        this.imeIgre = Arrays.asList(igre).contains(imeIgre) ? imeIgre : "poker";
     }
 
     public void setStanje(int stanje) {

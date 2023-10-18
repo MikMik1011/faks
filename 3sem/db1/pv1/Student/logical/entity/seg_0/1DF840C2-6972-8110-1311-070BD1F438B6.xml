@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DF840C2-6972-8110-1311-070BD1F438B6" name="Student">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:03:11 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BRI" id="DBDB6796-0C7B-D683-91D3-154073445C60">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:03:29 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GODUP" id="765A4E90-269E-78EB-F431-68C98552697F">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:05:08 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="5C65D866-AD68-0878-4553-7AAC2ED3D8D1">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:05:36 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRZ" id="86C33136-E8E6-CB1A-3B2A-F12FB9EFC6BC">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:06:57 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GODST" id="05DAF350-47FD-B0D1-E507-0D782EC73116">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:07:32 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BUDZET" id="DCFE1C6C-2801-E100-5DE5-20E143F8E664">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:07:50 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PROSEK" id="3515D0C9-D72D-FC71-F204-3EB049DB65B7">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:10:37 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JMBG" id="660B0342-290D-D2BD-3977-BEB31694767A">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:11:39 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATR" id="192E4095-65B6-680A-76A0-09B9D4C87E18">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:12:49 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESPB" id="60F8FB03-91A0-B1D2-D125-8F9B657FA076">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:13:09 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="B6FE8199-E256-D3C3-EDB2-4B71CFAFE5C0">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:13:38 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BRTEL" id="F397E9B8-9181-542D-D8AA-3846053A70BF">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:14:01 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1AF2496-1278-2438-2A7E-E31608EC1570" name="Student PK">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:04:38 UTC</createdTime>
+<ownerDesignName>Student</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBDB6796-0C7B-D683-91D3-154073445C60</attributeRef>
+<attributeRef>765A4E90-269E-78EB-F431-68C98552697F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

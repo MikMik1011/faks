@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C974BA00-458E-7404-B4AD-337C0DED15EE" name="Film">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:28:12 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDF" id="3085D821-C3DF-4FC0-B9C6-59C2C1659F38">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:28:21 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZIV" id="AC3B56B5-1B30-57F0-BD10-0705E0B338BA">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:28:58 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOD" id="72A52045-EA86-35B3-11B9-DEBA8F5A7A37">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:29:19 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OCENA" id="D80F1B4C-8D9C-3C21-E36C-9930183058D5">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:29:42 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZARADA" id="C8E6E186-AB2B-A48E-BD0B-41BB37BD35E2">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:30:01 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TRAJANJE" id="901DE75A-AE55-458F-9758-193772A9357D">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:30:22 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BRPR" id="9CC407C4-7FD1-BB92-BDE8-918016ABEE04">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:31:40 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATPR" id="C29148C5-1A10-0C3B-1DBE-87047D8278FD">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:32:04 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C0A83061-CB64-A6D9-D280-F3CEA2EEF097" name="Film PK">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-18 12:28:55 UTC</createdTime>
+<ownerDesignName>Film</ownerDesignName>
+<engineerTo>
+<item key="037086B2-F00A-3558-374B-31C7D07D9C26" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3085D821-C3DF-4FC0-B9C6-59C2C1659F38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -16,7 +16,7 @@ public class SkolaJezika {
             String jezik = kursData[0].trim();
             String nivo = kursData[1].trim();
             int brojPolaznika = Integer.parseInt(kursData[2].trim());
-            kursevi[i] = new Kurs(jezik, nivo, brojPolaznika);
+            this.kursevi[i] = new Kurs(jezik, nivo, brojPolaznika);
         }
 
         br.close();
@@ -26,7 +26,7 @@ public class SkolaJezika {
         String[] nivoi = Kurs.getNivoi();
         String jezik = this.kursevi[0].getJezik();
         int max = 0;
-        for (Kurs k : kursevi) {
+        for (Kurs k : this.kursevi) {
             if (k.getNivo().equals(nivoi[nivoi.length - 1]))
                 continue;
 

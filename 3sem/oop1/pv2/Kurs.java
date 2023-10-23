@@ -27,7 +27,7 @@ public class Kurs {
     }
 
     public void setNivo(String nivo) {
-        this.nivo = Arrays.asList(Kurs.nivoi).contains(nivo) ? nivo : "osnovni";
+        this.nivo = Arrays.asList(Kurs.nivoi).contains(nivo) ? nivo : Kurs.nivoi[0];
     }
 
     public int getBrojPolaznika() {

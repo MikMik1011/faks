@@ -9,9 +9,9 @@ public class Kurs {
     private static String[] nivoi = { "osnovni", "srednji", "napredni" };
 
     public Kurs(String jezik, String nivo, int brojPolaznika) {
-        this.jezik = jezik;
-        this.nivo = nivo;
-        this.brojPolaznika = brojPolaznika;
+        this.setJezik(jezik);
+        this.setNivo(nivo);
+        this.setBrojPolaznika(brojPolaznika);
     }
 
     public String getJezik() {

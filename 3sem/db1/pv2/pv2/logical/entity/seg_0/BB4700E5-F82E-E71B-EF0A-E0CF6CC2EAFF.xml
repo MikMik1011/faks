@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB4700E5-F82E-E71B-EF0A-E0CF6CC2EAFF" name="Predmetv1">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:00:42 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SPR" id="3B9A5F45-8DB9-4011-FEA6-30B0518C1F19">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:00:42 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZIV" id="225A3997-7421-6994-6FE3-18CAB6394C12">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:00:42 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5289614-9709-7C12-CFF4-68AD9E6E9970" name="PREDMET PK">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:00:42 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B9A5F45-8DB9-4011-FEA6-30B0518C1F19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

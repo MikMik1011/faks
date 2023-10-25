@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74481419-B1DF-C745-FE0C-39A8B019F6B5" name="Student">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:33:33 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BRI" id="93E95FB5-BBAB-B351-1EDB-7CF90E2600A1">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:33:40 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GOD" id="91DC7AA6-3500-D9D6-298C-D3356BF1A675">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:33:54 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="63406783-C0D1-15DE-77E9-6447057BF129">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:34:06 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREZIME" id="02C38AFD-4D73-FEC3-B756-6EDD208A871E">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:34:26 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="47F2DE03-F6F7-DB74-850F-9FB4A526796E" name="Student PK">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:33:52 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93E95FB5-BBAB-B351-1EDB-7CF90E2600A1</attributeRef>
+<attributeRef>91DC7AA6-3500-D9D6-298C-D3356BF1A675</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

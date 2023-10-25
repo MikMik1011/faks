@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D82DC7F-F575-D13F-B61B-5EE50774A830" name="Pisac">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:23:42 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDP" id="EF998AA2-4E58-A988-B9F7-E47C21F1E48E">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:23:50 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IME" id="388AFB4D-55F0-49C3-45FB-167F2A30195D">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:24:11 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PREZIME" id="8D5BF685-925A-19E2-7704-29F03308C819">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:24:27 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATR" id="C2CF13B8-3B5E-6C6A-B5F7-9680E87C7CA1">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:24:45 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3035CC0F-EED6-D0FB-EFC0-C0A7193FBC1E" name="Pisac PK">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:24:05 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF998AA2-4E58-A988-B9F7-E47C21F1E48E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

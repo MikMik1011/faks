@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ispit" directorySegmentName="seg_0" id="EA4BA02C-472B-A252-5C14-1DF32445776C">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:08:15 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<sourcePk>E786D6BA-C703-5FB5-976E-30856D6F46B2</sourcePk>
+<targetPk>A5289614-9709-7C12-CFF4-68AD9E6E9970</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0D6A5F67-DCBD-407E-0B10-DAE89A504932</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BB4700E5-F82E-E71B-EF0A-E0CF6CC2EAFF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="OCENA" id="AF094181-D1C9-0423-33B4-30F421F7436A">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:08:46 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="DATP" id="59FF527A-1284-9AEF-3622-D3242BD93F84">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 12:09:05 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<engineerTo>
+<item key="275BDE07-B7C2-C3C3-E5FD-751C2277F6AB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

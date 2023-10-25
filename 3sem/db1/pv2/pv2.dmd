@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="pv2" id="4815546B-EE0F-8AAF-35AC-D9E9CEC9B4D7" version="3.5">
+<createdBy>mikmik</createdBy>
+<createdTime>2023-10-25 11:01:27 UTC</createdTime>
+<ownerDesignName>pv2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4815546B-EE0F-8AAF-35AC-D9E9CEC9B4D7</designId>
+</OSDM_Design>

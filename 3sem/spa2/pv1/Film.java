@@ -19,7 +19,7 @@ public class Film implements Comparable<Film> {
             return diff;
         
         return this.getNaziv().compareToIgnoreCase(film2.getNaziv());
-   
+
     }
 
     public int getId() {

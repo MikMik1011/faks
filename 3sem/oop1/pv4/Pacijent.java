@@ -14,7 +14,6 @@ public class Pacijent {
         this.godine = godine;
     }
 
-
     public String getIme() {
         return this.ime;
     }

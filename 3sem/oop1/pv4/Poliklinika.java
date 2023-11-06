@@ -14,10 +14,12 @@ public class Poliklinika {
         BufferedReader br = new BufferedReader(new FileReader(filename));
         int len = Integer.parseInt(br.readLine().trim());
         lekari = new Lekar[len];
+
         for(int i = 0; i < len; ++i) {
             String ime = br.readLine().trim();
             String prezime = br.readLine().trim();
             String tipLekara = br.readLine().trim();
+            
             if(tipLekara.equals("pedijatar"))
                 lekari[i] = new Pedijatar(ime, prezime);
             else if(tipLekara.equals("pulmolog"))
@@ -60,12 +62,16 @@ public class Poliklinika {
         int index = -1;
         for(int i = 0; i < lekari.length; ++i) {
             Lekar l = lekari[i];
+            int brojPacijenata = l.getBrojPacijenata();
+            if(brojPacijenata == 0)
+                continue;
+
             int sum = 0;
             Pacijent[] pacijenti = l.getPacijenti();
-            for(int j = 0; j < l.getBrojPacijenata(); ++j) {
+            for(int j = 0; j < brojPacijenata; ++j) {
                 sum += pacijenti[j].getGodine();
             }
-            double prosek = sum / l.getBrojPacijenata();
+            double prosek = sum / brojPacijenata;
             if(index == -1 || prosek > max) {
                 max = prosek;
                 index = i;

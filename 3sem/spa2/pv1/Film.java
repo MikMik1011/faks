@@ -1,5 +1,3 @@
-package pv1;
-
 public class Film implements Comparable<Film> {
     private int id;
     private String naziv;

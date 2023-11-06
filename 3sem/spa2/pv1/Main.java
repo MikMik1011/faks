@@ -1,12 +1,32 @@
-package pv1;
-
 import java.util.Arrays;
 
 import org.svetovid.Svetovid;
 import org.svetovid.io.SvetovidReader;
 import org.svetovid.io.SvetovidWriter;
 
+
 public class Main {
+    public static void sortArray(Film[] filmovi, int type) {
+        switch (type) {
+            case 1:
+                Arrays.sort(filmovi, new CompareByID());
+                break;
+            case 2:
+                Arrays.sort(filmovi, new CompareByName());
+                break;
+            case 3:
+                Arrays.sort(filmovi, new CompareByDirector());
+                break;
+            case 4:
+                Arrays.sort(filmovi, new CompareLex());
+                break;
+        
+            default:
+                Svetovid.out.println("Invalid type!")
+                break;
+        }
+    } 
+
     public static void main(String[] args) {
         String fileName = Svetovid.in.readLine("Unesite ime fajla:");
 
@@ -26,9 +46,9 @@ public class Main {
             filmovi[i] = new Film(id, naziv, reditelj);
         }
 
-        Arrays.sort(filmovi);
-
         file.close();
+
+        sortArray(filmovi, Svetovid.in.readInt());
 
         fileName = Svetovid.in.readLine("Unesite ime fajla za save: ");
         if(!Svetovid.testOut(fileName))
